@@ -6,8 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# --- Model Training Logs & Metadata ---
+catboost_info/
+lightning_logs/
+*.log
+
 # Distribution / packaging
-.artifacts
+.artifacts/
 .Python
 build/
 develop-eggs/
